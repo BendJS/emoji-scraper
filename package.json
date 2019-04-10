@@ -4,6 +4,7 @@
   "description": "Scrape all the emojis from slack.",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.js",
     "test": "jest"
   },
   "repository": {
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/BendJS/emoji-scraper#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.0.0"
+  },
+  "staticFiles": {
+    "staticPath": "src/static"
   }
 }

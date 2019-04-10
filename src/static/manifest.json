@@ -1,0 +1,23 @@
+{
+    "name": "Bend JS - Slack Emoji Scraper",
+    "short_name": "Emoji Scraper",
+    "description": "Scrape all the slack emojis from a current slack environment.",
+    "version": "1.0.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [{
+        "js": ["index.js"],
+        "matches": ["*://*.slack.com/*/emoji*"],
+        "run_at": "document_end"
+    }],
+    "icons": {
+      "128": "images/icon_128.png"
+    },
+    "manifest_version": 2,
+    "web_accessible_resources": [
+      "index.js",
+      "index.js.map",
+      "images/icon_128.png",
+      "index.css",
+      "index.css.map"
+    ]
+}
