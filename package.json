@@ -1,0 +1,27 @@
+{
+  "name": "emoji-scraper",
+  "version": "1.0.0",
+  "description": "Scrape all the emojis from slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BendJS/emoji-scraper.git"
+  },
+  "keywords": [
+    "emoji",
+    "scrape",
+    "slack"
+  ],
+  "author": "BendJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BendJS/emoji-scraper/issues"
+  },
+  "homepage": "https://github.com/BendJS/emoji-scraper#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
