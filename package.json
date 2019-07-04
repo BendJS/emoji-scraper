@@ -24,13 +24,13 @@
   "homepage": "https://github.com/BendJS/emoji-scraper#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "parcel-plugin-static-files-copy": "^2.0.0"
+    "parcel-plugin-static-files-copy": "^2.1.2"
   },
   "staticFiles": {
     "staticPath": "src/static"
   },
   "dependencies": {
-    "element-ready": "^3.1.0",
+    "element-ready": "^4.1.0",
     "htm": "^2.1.1",
     "hyperscript": "^2.0.2"
   }
