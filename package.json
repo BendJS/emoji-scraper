@@ -23,11 +23,8 @@
   },
   "homepage": "https://github.com/BendJS/emoji-scraper#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
-    "parcel-plugin-static-files-copy": "^2.1.2"
-  },
-  "staticFiles": {
-    "staticPath": "src/static"
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
   },
   "dependencies": {
     "element-ready": "^4.1.0",
