@@ -4,7 +4,7 @@
   "description": "Scrape all the emojis from slack.",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build src/index.js",
+    "build": "webpack",
     "test": "jest"
   },
   "repository": {
@@ -23,12 +23,15 @@
   },
   "homepage": "https://github.com/BendJS/emoji-scraper#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
     "element-ready": "^4.1.0",
-    "htm": "^2.1.1",
+    "htm": "^2.2.1",
     "hyperscript": "^2.0.2"
   }
 }
